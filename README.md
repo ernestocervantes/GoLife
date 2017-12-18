@@ -1,1 +1,1 @@
-# GoLife-whit-rails
+Conway's Game of Life

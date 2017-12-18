@@ -1,0 +1,17 @@
+<div class="game">
+<div class="grid">
+<% for i in 0..(@rows - 1) do %>
+	<div class="row row-no-padding">
+		<% for j in 0..(@cols - 1) do %>
+			<div class="col-lg-2 col-md-xs col-xs">
+			<% if  @grid and @grid[i][j] == 1 %>
+				<div class="cell active fadeIn" col="<%= j %>" row="<%= i %>">
+				</div>
+			<% else %>
+				<div class="cell fadeIn" col="<%= j %>" row="<%= i %>">
+				</div>
+			<% end %>
+		</div>
+		<% end %>
+	</div>
+<% end %>
