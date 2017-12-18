@@ -24,7 +24,7 @@ class GameController < ApplicationController
     private
 
   	def init
-  		@rows = 6
+  		@rows = 7
   		@cols = 6
   	end
 

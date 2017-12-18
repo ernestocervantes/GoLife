@@ -36,7 +36,7 @@ $(function(){
       }
 
       $.post('/start', {load: load, cells: cells});
-      $('#start').addClass('disabled').text(count);
+      $('#start').addClass('disabled').text('start');
       count ++;
       setTimeout(function(){
         load = false;
