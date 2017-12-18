@@ -1,21 +1,22 @@
-<h2 text-aling = "center">Conway's Game of life</h2>	
+<h2 class = "lead text-center">Conway's Game of life</h2>	
 
-<div class="game">
+<div class = "game-wrapper">
 
-
-<%= render partial: 'grid' %>		
-		
+	<div class = "game">
+		<%= render partial: 'grid' %>
+	</div>
 
 </div>
+
 <div class = "row">
+
 	<div class = "col-md-2 col-md-offset-5">
 		<a class = "btn btn-block disabled" id="start">Start</a>
 	</div>
-</div>
-<div class = "stop">
-<i class = "btn fa-times fa-2x">
 
-</i>
-
+	<div class = "stop col-md-2 col-md-offset-5">
+		<i class = "btn fa fa-times fa-4x"></i>
+	</div>
 
 </div>
+

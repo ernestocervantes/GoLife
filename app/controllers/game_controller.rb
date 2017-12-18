@@ -1,6 +1,6 @@
 class GameController < ApplicationController
   	
-  before_action :init, only: [:index, :start, :stop, :cols, :rows]
+  before_action :init, only: [:index, :start, :stop]
 
   	def index
   		@@game = Game.new(@cols, @rows)
